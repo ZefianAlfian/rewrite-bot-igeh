@@ -225,14 +225,14 @@ const upFollower = async (ig) => {
     console.log(`followed ${user.node.username}`);
     await new Promise((resolve) => setTimeout(resolve, time));
   }
-  Bluebird.delay(36000000);
+  await new Promise((r) => setTimeout(r, 1000 * 60 * 30))
   for (const user of toUnfollowing) {
     await ig.friendship.destroy(user.node.id);
     console.log(`unfollowed ${user.node.username}`);
     await new Promise((resolve) => setTimeout(resolve, time));
   }
-  Bluebird.delay(time);
-  upFollower(ig);
+  await new Promise((r) => setTimeout(r, 1000 * 60 * 60))
+  while(true) await upFollower(ig)
 };
 
 const getSessionIg = async () =>
