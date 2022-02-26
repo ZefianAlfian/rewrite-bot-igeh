@@ -3,7 +3,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 
-One to two paragraph statement about your product and what it does.
+Use at your own discretion.
 
 ![](header.png)
 
@@ -19,7 +19,7 @@ npm install
 
 ## Meta
 
-Rizqi – [@mrizqirmdhn_](https://instagram.com/mrizqirmdhn) – tryaha78@gmail.com
+Rizqi – [@mrizqirmdhn_](https://instagram.com/mrizqirmdhn_) – tryaha78@gmail.com
 
 [https://github.com/ZefianAlfian/rewrite-bot-igeh](https://github.com/ZefianAlfian/)
 
